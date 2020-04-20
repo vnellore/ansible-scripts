@@ -28,7 +28,9 @@
 *Using Ansible Vault for secrets*
 
 *create secrets file*
+
 `$ ansible-vault create vars/secret-variables.yml`
 
 *edit secrets file*
+
 `$ ansible-vault edit vars/secret-variables.yml`
