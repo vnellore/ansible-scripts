@@ -12,3 +12,7 @@
 *Execute an adhoc command on a host*
 
 `$ ansible -m service -a "name=<service name> state=<service state>" --become <host group>`
+
+*Create default file structure for roles using ansible galaxy*
+
+`$ ansible-galaxy init <folder location>`
